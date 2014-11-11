@@ -88,7 +88,7 @@ void TestUtil::launchIk(const QString &path)
                 "</source>\n"
                 "<match **>\n"
                 "  type file\n"
-                "  path %1/log/\n"
+                "  path %1/log/*.log\n"
                 "</match>").arg(dir.path()));
 
     QEventLoop loop;

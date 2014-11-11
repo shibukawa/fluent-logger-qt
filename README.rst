@@ -8,9 +8,14 @@ Now this is an alpha stage. In future, it will move to more flexible packaging s
 Usage
 -----
 
-$ git submodule add git@github.com:shibukawa/fluent-logger-qt.git
+.. code-block:: sh
 
-Add "msgpack-c.pri" and "fluent-logger-qt.pri" to you ".pro" project file.
+   $ cd <your cool application folder>
+   $ git submodule add git@github.com:shibukawa/fluent-logger-qt.git
+   # to install msgpack-c
+   $ git submodule update --init --recursive --depth=1
+
+Add ``msgpack-c.pri`` and ``fluent-logger-qt.pri`` to you ".pro" project file.
 
 Thanks
 ------
